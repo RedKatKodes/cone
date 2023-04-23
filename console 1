@@ -1,0 +1,14 @@
+#console 1 for cone
+
+def println(inp):
+    l = 0
+    l2 = str(l)
+    output = "\n" + l2 + ": " +  inp
+    print(output)
+def code():
+    inp = "CONE> "
+    run = input(inp)
+    exec(run)
+    print("\n")
+    code()
+code()
